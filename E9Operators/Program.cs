@@ -7,7 +7,6 @@ Calculate how many days, hours, minutes and seconds the time contains
 Print each part of the time
 Then print all components together in the format: D.H:M:S
 Then print how many days this is as a fraction in total
-
 */
 
 int secPerMin = 60;
@@ -33,12 +32,10 @@ double totalDaysFraction = 0.0;
 
 void Input()
 {
-    bool isRunning = true;
-    while (isRunning)
+    while (true)
     {
         Console.Clear();
         Console.WriteLine("Give me a number of seconds");
-
         string input = Console.ReadLine() ?? "";
 
         if (int.TryParse(input, out totalSeconds))
@@ -51,7 +48,7 @@ void Input()
             }
             else
             {
-                isRunning = false;
+                return;
             }
         }
         else
@@ -59,7 +56,6 @@ void Input()
             Console.Clear();
             Console.WriteLine($"That's not a valid number, try again.\nPress Enter to Continue...");
             Console.ReadLine();
-            
         }
     }
 }
