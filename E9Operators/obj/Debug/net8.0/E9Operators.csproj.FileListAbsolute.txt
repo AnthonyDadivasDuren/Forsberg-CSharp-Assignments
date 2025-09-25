@@ -12,3 +12,4 @@ C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0
 C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.pdb
 C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.genruntimeconfig.cache
 C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\ref\E9Operators.dll
+C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.sourcelink.json

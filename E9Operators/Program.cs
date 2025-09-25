@@ -24,14 +24,11 @@ int remainingSeconds = 0;
 double totalDaysFraction = 0.0;
 
 
-
     Input();
 
     Convert();
 
     Output();
-
-
 
 
 void Input()
@@ -56,7 +53,6 @@ void Input()
             {
                 isRunning = false;
             }
-            
         }
         else
         {
@@ -66,10 +62,7 @@ void Input()
             
         }
     }
-
-
 }
-
 
 void Convert()
 {
@@ -87,7 +80,6 @@ void Convert()
     totalSeconds = remainingSeconds;
 
     totalDaysFraction = (double)originalTotalSeconds / (secPerMin * minPerHour * hourPerDay);
- 
 }
 
 void Output()
