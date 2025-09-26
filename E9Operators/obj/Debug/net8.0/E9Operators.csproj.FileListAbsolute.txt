@@ -13,3 +13,18 @@ C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0
 C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.genruntimeconfig.cache
 C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\ref\E9Operators.dll
 C:\ForsbergProjectRepos\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.sourcelink.json
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\bin\Debug\net8.0\E9Operators.exe
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\bin\Debug\net8.0\E9Operators.deps.json
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\bin\Debug\net8.0\E9Operators.runtimeconfig.json
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\bin\Debug\net8.0\E9Operators.dll
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\bin\Debug\net8.0\E9Operators.pdb
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.AssemblyInfoInputs.cache
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.AssemblyInfo.cs
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.csproj.CoreCompileInputs.cache
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.sourcelink.json
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.dll
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\refint\E9Operators.dll
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.pdb
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\E9Operators.genruntimeconfig.cache
+C:\Forsberg Assignments\Forsberg-CSharp-Assignments\E9Operators\obj\Debug\net8.0\ref\E9Operators.dll

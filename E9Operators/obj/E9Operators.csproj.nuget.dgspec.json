@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ForsbergProjectRepos\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj": {}
+    "C:\\Forsberg Assignments\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj": {}
   },
   "projects": {
-    "C:\\ForsbergProjectRepos\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj": {
+    "C:\\Forsberg Assignments\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ForsbergProjectRepos\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj",
+        "projectUniqueName": "C:\\Forsberg Assignments\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj",
         "projectName": "E9Operators",
-        "projectPath": "C:\\ForsbergProjectRepos\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj",
+        "projectPath": "C:\\Forsberg Assignments\\Forsberg-CSharp-Assignments\\E9Operators\\E9Operators.csproj",
         "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-        "outputPath": "C:\\ForsbergProjectRepos\\Forsberg-CSharp-Assignments\\E9Operators\\obj\\",
+        "outputPath": "C:\\Forsberg Assignments\\Forsberg-CSharp-Assignments\\E9Operators\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config"

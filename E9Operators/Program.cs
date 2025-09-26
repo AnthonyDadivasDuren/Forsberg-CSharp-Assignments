@@ -9,6 +9,9 @@ Then print all components together in the format: D.H:M:S
 Then print how many days this is as a fraction in total
 */
 
+using System.Globalization;
+Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+
 int secPerMin = 60;
 int minPerHour = 60;
 int hourPerDay = 24;
