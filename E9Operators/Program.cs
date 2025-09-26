@@ -12,9 +12,9 @@ Then print how many days this is as a fraction in total
 using System.Globalization;
 Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
-int secPerMin = 60;
-int minPerHour = 60;
-int hourPerDay = 24;
+const int secPerMin = 60;
+const int minPerHour = 60;
+const int hourPerDay = 24;
 
 int originalTotalSeconds = 0;
 int totalDays = 0;
