@@ -12,6 +12,7 @@ Then print how many days this is as a fraction in total
 using System.Globalization;
 Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
+// --- Variables ---
 const int secPerMin = 60;
 const int minPerHour = 60;
 const int hourPerDay = 24;
@@ -20,12 +21,13 @@ int originalTotalSeconds = 0;
 int totalDays = 0;
 int totalHours = 0;
 int totalMinutes = 0; 
-int totalSeconds = 0;
+int inputSeconds = 0;
 int remainingSeconds = 0;
 
 double totalDaysFraction = 0.0;
 
 
+// --- Program ---
     Input();
 
     Convert();
@@ -33,6 +35,7 @@ double totalDaysFraction = 0.0;
     Output();
 
 
+// --- Methods ---
 void Input()
 {
     while (true)
@@ -41,9 +44,9 @@ void Input()
         Console.WriteLine("Give me a number of seconds");
         string input = Console.ReadLine() ?? "";
 
-        if (int.TryParse(input, out totalSeconds))
+        if (int.TryParse(input, out inputSeconds))
         {
-            if (totalSeconds < 0)
+            if (inputSeconds < 0)
             {
                 Console.Clear();
                 Console.WriteLine("Please enter a positive number.\nPress Enter to continue...");
@@ -65,10 +68,10 @@ void Input()
 
 void Convert()
 {
-    originalTotalSeconds = totalSeconds;
+    originalTotalSeconds = inputSeconds;
 
-    totalDays = totalSeconds / (secPerMin * minPerHour * hourPerDay);
-    remainingSeconds = totalSeconds % (secPerMin * minPerHour * hourPerDay);
+    totalDays = inputSeconds / (secPerMin * minPerHour * hourPerDay);
+    remainingSeconds = inputSeconds % (secPerMin * minPerHour * hourPerDay);
 
     totalHours = remainingSeconds / (secPerMin * minPerHour);
     remainingSeconds %=  (secPerMin * minPerHour);
@@ -76,18 +79,18 @@ void Convert()
     totalMinutes = remainingSeconds / secPerMin;
     remainingSeconds %= secPerMin;
 
-    totalSeconds = remainingSeconds;
+    inputSeconds = remainingSeconds;
 
     totalDaysFraction = (double)originalTotalSeconds / (secPerMin * minPerHour * hourPerDay);
 }
 
 void Output()
 {
-    Console.WriteLine($"Seconds: {totalSeconds}");
+    Console.WriteLine($"Seconds: {inputSeconds}");
     Console.WriteLine($"Minutes: {totalMinutes}");
     Console.WriteLine($"Hours: {totalHours}");
     Console.WriteLine($"Days: {totalDays}");
-    Console.WriteLine($"{totalDays}.{totalHours}:{totalMinutes}:{totalSeconds}");
+    Console.WriteLine($"{totalDays}.{totalHours}:{totalMinutes}:{inputSeconds}");
     Console.WriteLine($"In total, that's {totalDaysFraction} Days");
 }
 
