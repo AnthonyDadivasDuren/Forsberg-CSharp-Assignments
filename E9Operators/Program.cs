@@ -14,8 +14,8 @@ Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
 // --- Variables ---
 const int secPerMin = 60;
-const int minPerHour = 60;
-const int hourPerDay = 24;
+const int secPerHour = 60 * secPerMin; // 3600
+const int secPerDay = 24 * secPerHour; // 86400
 
 int originalTotalSeconds = 0;
 int totalDays = 0;
@@ -70,18 +70,18 @@ void Convert()
 {
     originalTotalSeconds = inputSeconds;
 
-    totalDays = inputSeconds / (secPerMin * minPerHour * hourPerDay);
-    remainingSeconds = inputSeconds % (secPerMin * minPerHour * hourPerDay);
+    totalDays = inputSeconds / secPerDay;
+    remainingSeconds = inputSeconds % secPerDay;
 
-    totalHours = remainingSeconds / (secPerMin * minPerHour);
-    remainingSeconds %=  (secPerMin * minPerHour);
+    totalHours = remainingSeconds / secPerHour;
+    remainingSeconds %= secPerHour;
 
     totalMinutes = remainingSeconds / secPerMin;
     remainingSeconds %= secPerMin;
 
     inputSeconds = remainingSeconds;
 
-    totalDaysFraction = (double)originalTotalSeconds / (secPerMin * minPerHour * hourPerDay);
+    totalDaysFraction = (double)originalTotalSeconds / secPerDay;
 }
 
 void Output()
